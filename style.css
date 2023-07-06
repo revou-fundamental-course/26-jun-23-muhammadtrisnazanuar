@@ -1,0 +1,417 @@
+ /* Designed By Muhammad Trisna Zanuar Rahmadan Nur Faisal HAdi Saputra  */
+ /* 6/7/2023  */
+body{
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    padding-bottom: 50px;
+}
+
+#ciok {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px 15px 80px;
+    border-bottom: 2px solid rgb(185, 35, 35);
+  
+}
+
+#logo {
+    height: 45px;
+}
+
+.jembut {
+    display: flex;
+    gap: 10px;
+    width: 450px;
+   
+}
+
+.jembut > a {
+    background-color: #e6727a;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffff;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.jembut> a:hover {
+    background-color: #ef505b;
+    border-radius: 20px
+}
+
+#banner {
+    text-align: center;
+    margin: 50px auto 20px auto;
+    width: 700px;
+    padding: 0;
+} 
+
+#title {
+    font-size: 42px;
+    color: #3e3e3e;
+}
+
+#subtitle {
+    font-size: x-large;
+    color: #0b0c0e;
+}
+
+#hancok {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 90px 90px 90px;
+}
+
+article {
+    display: flex;
+    flex-basis: 60%;
+    flex-grow: 0;
+    flex-direction: column;
+}
+
+article img {
+    width: 650px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 5px;   
+}
+
+article h3{
+    color: #3b4754;
+    margin-top: 50px;
+}
+
+#caption {
+    padding: 10px 0 0 50px;
+    color: #77838f;
+    font-style: italic;
+    font-size: larger;
+}
+
+#person {
+    display: flex;
+    align-items: center;
+    margin: 50px 40px 0 50px;
+    gap: 20px;
+    height: 60px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e6f1f0;
+}
+
+#ava {
+    width: 75px;
+    height: 75px;
+}
+
+#cokk {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+}
+#cokk h3 {
+    color: #3b4754;
+    margin: 10px 0 0 0;
+    padding: 5;
+}
+
+#cokk h5 {
+    color: #b1b7bf;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0; 
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.poin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 0 0 0;
+    padding: 0;
+    gap: 30px;
+    height: 50px;
+}
+
+.poin h3 {
+    background: #e6727a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.poin p {
+    height: 50px;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    color: #77838f;
+}
+
+
+#form {
+    
+    background-color: #e6727a;
+    border-radius: 5px;
+    padding: 35px 55px 3px 55px;
+    color: #000000;
+    height: 650px;
+    width: 280px;
+}
+
+#form h1 {
+    color: #3b4754;
+    margin-bottom: 50px;
+}
+
+#form p {
+    color: #606367;
+}
+
+#form button {
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+    background-color: #e8545e;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: #b65b61ac;
+}
+
+.kontol{
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-weight: bold;
+    font-size: medium;
+    color: #3b4754;
+}
+
+.kontol input {
+    border: 2px solid #dceae6;
+	border-radius: 10px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.kontol #messages {
+    height: 70px;
+    border-radius: 15px;
+}
+
+.kontol input:focus {
+    outline: 0;
+}
+
+.kontol.success input {
+    border-color: #09c372;
+}
+
+.kontol.error input {
+    border-color: #ff9238;
+}
+
+.kontol .error {
+    color: #ff9238;
+    font-size: 9px;
+    height: 13px;
+}
+
+
+#ourpackage {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #ebebebdd;
+}
+
+#ourpackage_title {
+    display: flex;
+    width: 100%;
+    background-color: #e6727a;
+    color: #3b4754;
+    font-size: x-large;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+#ourpackage_fakk {
+    display: flex;
+    margin: 50px 90px 50px 90px;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.fakk {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 300px;
+    border: 2px solid #dceae6;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.fakk img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.fakk img:hover {
+    box-shadow: 0 5px 5px 0 #fa898d;
+}
+
+.fakk h3{
+    text-align: left;
+    color: #3b4754;
+    line-height: 0;
+    padding: 0 10px 0 10px;
+}
+
+.fakk p{
+    text-align: left;
+    color: #77838f;
+    line-height: 1;
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+
+#callus {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 90px 50px 90px;
+    align-items: center;
+}
+
+#callus h1 {
+    text-align: center;
+    font-size: xx-large;
+    color: #3b4754;
+}
+
+#callus p {
+    text-align: center;
+    color: #77838f;
+}
+
+#cta {
+    background-color: #e6727a;
+    text-decoration: none;
+    padding: 15px 15px;
+    width: 200px;
+    text-align: center;
+    color: #ffff;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+#cta:hover {
+    background-color: #902f44;
+
+}
+
+#callus > a :hover{
+    color: #28766c;
+}
+
+ footer {
+    display: flex;
+    border-top: 2px solid #ebebebdd;
+    padding: 50px 0 30px 0;
+    flex-direction: column ;
+    align-items: center;
+    gap: 10px;
+ }
+
+ footer img {
+    width: 150px;
+ }
+
+ footer p {
+    line-height: 0px;
+    color: grey;
+ }
+ 
+ footer div a {
+    text-decoration: none;
+    color: grey;
+    margin: 10px;
+ }
+ 
+ footer div a:hover {
+    color: rgb(80, 78, 78);
+ }
+
+ @media only screen and (max-width: 00px){
+    
+    #ciok {
+        flex-direction: column;
+        padding: 3px;
+        align-items: center;
+    }
+
+    #logo {
+        height: 30px;
+    }
+
+    #title {
+        font-size: x-large;
+    }
+
+    #subtitle {
+        font-size: medium;
+    }
+
+    #banner {
+        text-align: center;
+        margin: 50px auto 20px auto;
+        width: 70%;
+    }
+
+    article img {
+        width: 520px;
+        height: 352px;
+        object-fit: cover;
+        border-radius: 5px;   
+    }
+
+    header {
+        padding-bottom: 10px;
+    }
+
+ }
